@@ -1,33 +1,122 @@
 <!doctype html>
-
 <html lang="en">
 <head>
   <meta charset="utf-8">
-
-  <title>The HTML5 Herald</title>
-  <meta name="description" content="Personal Webpage">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Personal Webpage Tech">
   <meta name="author" content="Lonique Aelxander">
-
+  <title>Lonique Alexander</title>
   <link rel="stylesheet" href="css/styles.css?v=1.0">
-
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
 </head>
-<body>
-    <!--Navigation-->
-    <nav>
-      <h3>Nav</h3>
-    </nav>
-  <!--******About me Section**********-->
-  <section id="about-me">
-      <h2>Lonique Alexander</h2>
-      <div class="aboutext">
-          <p class="main-message">I am Niquepg a Software Engineer residing in the Big Apple. Welcome and thank you for visiting my page~</p>
-          <p class="main-message">I have a Bachelor of Science in Computer Science Department with minor in mathematics. I am “somewhat” of a self-taught Web and Mobile Developer. I have been using sites like <a href="https://profiles.udacity.com/u/loniquealexander" target="_blank"> Udacity</a>, <a href="https://www.freecodecamp.com/niquepg" target="_blank">Freecodecamp</a>, <a href="https://www.codeschool.com/users/niquepg" target="_blank">Code School</a>, and <a href="https://www.codewars.com/users/niquepg" target="_blank"> Codewars</a> to further my education in my spare time. My current research interest is in machine learning.</p>
-          <p class="main-message">I am currently looking for a Full-Time job. I wish to be part of a team, so I can work hard and continue to grow as a software engineer, employee and as a person, while building new or improving on existing software products.</p>
-      </div>  
-  </section>
+<body id="pageTop" data-target="#mainNav">
+  <!--Navigation-->
+  <nav class="navbar navbar-expand-md navbar-dark  fixed-top navbar-custom" id="mainNav">
+    <div class="navbar-header"><!-- Brand and toggle grouped-->     
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <a href="#" class="navbar-brand"><i class="fab fa-superpowers fa-1x"></i> Lonique Alexander</a>
+    </div>
+    <!-- Collect the nav links and other content for toggling -->
+    <div class="collapse navbar-collapse" id="navbar-collapse">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a href="#header" class="nav-link"></a></li>
+        <li class="nav-item"><a href="#about">About</a></li>
+        <li class="nav-item"><a href="#portfolio">Portfolio</a></li>
+        <li class="nav-item"><a href="#contact">Contact</a></li>
+      </ul>
+    </div> <!--End of navbar collaspe-->
+  </nav>
+  <!--Begin of the page content-->
+  <main role="main" class="container" id="mainContent">
+    <!--******About me Section**********-->
+    <section id="about">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-12 ">
+                    <h2 class="">About Me</h2>
+                    <hr class="superpower">
+                </div>
+                <div class="img-profile">
+                    <img class="img-responsive" src="img/profile1.png" alt="Niquepg">
+                    <h2 class="name">Lonique Alexander</h2>
+                    <div class="social-icon">
+                        <a href="https://www.freecodecamp.com/niquepg" target="_blank"><button type="button" class="btn btn-secondary"><i class="fab fa-free-code-camp" aria-hidden="true"></i> FreeCodeCamp</button></a>
+                        <a href="https://twitter.com/niquepg" target="_blank"><button type="button" class="btn btn-secondary"><i class="fab fa-twitter" aria-hidden="true"></i> Twitter</button></a>
+                        <a href="https://github.com/niquepg" target="_blank"><button type="button" class="btn btn-secondary"><i class="fab fa-github-alt" aria-hidden="true"></i> Github</button></a>
+                        <a href="https://www.youtube.com/channel/UCuSlsgTE0TYEWVCeRXrimlg?view_as=subscriber" target="_blank"><button type="button" class="btn btn-secondary"><i class="fab fa-youtube" aria-hidden="true"></i> Yotube</button></a>
+                    </div>
+                </div>
+            </div><!--End of Row-->
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="profile">
+                        <ol class="iconlist">
+                            <li class="dataicons">               
+                                <span class="fa-stack fa-lg">
+                                    <i class="far fa-square fa-stack-2x"></i>
+                                    <i class="fas fa-thumbtack fa-stack-1x"></i>
+                                </span>
+                                <span class="profiletext"><em>Inspire to be IOS and Web developer!</em></span>
+                            </li>
+                            <li class="dataicons">
+                                <span class="fa-stack fa-lg">
+                                    <i class="far fa-square fa-stack-2x"></i>
+                                    <i class="fas fa-map-marker fa-stack-1x"></i>
+                                </span>
+                                <span class="profiletext">Queens, New York</span>
+                            </li>
+                            <li class="dataicons">
+                                <span class="fa-stack fa-lg">
+                                    <i class="far fa-square fa-stack-2x"></i>
+                                    <i class="fa fa-language fa-stack-1x"></i>
+                                </span>
+                                <span class="profiletext">English,日本語</span>
+                            </li>
+                            <li class="dataicons">
+                                <span class="fa-stack fa-lg">
+                                    <i class="far fa-square fa-stack-2x"></i>
+                                    <i class="fa fa-code  fa-stack-1x"></i>
+                                </span>
+                                <span class="profiletext">Java, C++, JS, python, ruby, HTML5, CSS</span>
+                            </li>
+                            <li class="dataicons">
+                                <span class="fa-stack fa-lg">
+                                    <i class="far fa-square fa-stack-2x"></i>
+                                    <i class="fa fa-laptop   fa-stack-1x"></i>
+                                </span>
+                                <span class="profiletext">OSX and Ubuntu, Rails, Git, Mysql</span>
+                            </li>
+                            <li class="dataicons">
+                                <span class="fa-stack fa-lg">
+                                    <i class="far fa-square fa-stack-2x"></i>
+                                    <i class="fa fa-terminal fa-stack-1x"></i>
+                                </span>
+                                <span class="profiletext">Sublime, Eclipse, and Visual Studio Code </span>
+                            </li>
+                        </ol>
+                    </div><!--End of profile-->
+                </div>
+                <div class="col-sm-6">
+                    <div class="aboutext">
+                        <p class="main-message">I am Niquepg a Software Engineer residing in the Big Apple. Welcome and thank you for visiting my page~</p>
+                        <p class="main-message">I have Bachelor of Science in Computer Science Department with minor in mathematics. I am “somewhat” of a self-taught Web and Mobile Developer. I have been using sites like <a href="https://profiles.udacity.com/u/loniquealexander" target="_blank"> Udacity</a>, <a href="https://www.freecodecamp.com/niquepg" target="_blank">Freecodecamp</a>, <a href="https://www.codeschool.com/users/niquepg" target="_blank">Code School</a>, and <a href="https://www.codewars.com/users/niquepg" target="_blank"> Codewars</a> to further my education in my spare time. My current research interest is in machine learning.</p>
+                        <p class="main-message">I am currently looking for a Full-Time job. I wish to be part of a team, so I can work hard and continue to grow as a software engineer, employee and as a person, while building new or improving on existing software products.</p>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </section>
+  </main>
 </body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<!--for livereload for faster development-->
 <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 </html>
